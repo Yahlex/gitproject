@@ -6,3 +6,12 @@ h1 {
     color: seagreen;
     margin-left: 20px;
 }
+
+img {
+    transition: opacity 0.3s ease-in-out; /* Effet de transition */
+  }
+
+  /* Style lors du survol */
+  img:hover {
+    opacity: 0.5;
+  }
