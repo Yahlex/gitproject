@@ -9,9 +9,15 @@ h1 {
 
 img {
     transition: opacity 0.3s ease-in-out; /* Effet de transition */
+    transition: transform 0.3s ease-in-out;
+
   }
 
   /* Style lors du survol */
   img:hover {
     opacity: 0.5;
+    transform: rotate(20deg);
+    transform: scale(1.1);
+
+
   }
